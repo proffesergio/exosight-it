@@ -1,0 +1,25 @@
+[08-Mar-2024 16:47:24 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 11
+[08-Mar-2024 16:47:44 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + int in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 11
+[08-Mar-2024 19:48:44 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 9
+[08-Mar-2024 19:48:56 UTC] PHP Parse error:  syntax error, unexpected variable "$count", expecting "," or ";" in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 9
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Undefined variable $food in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Trying to access array offset on null in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Undefined variable $food in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Trying to access array offset on null in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Undefined variable $food in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Trying to access array offset on null in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Undefined variable $food in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Trying to access array offset on null in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Undefined variable $food in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:49:14 UTC] PHP Warning:  Trying to access array offset on null in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 8
+[08-Mar-2024 19:52:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function defin() in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\Users\bhnbi\Local Sites\exosightit\app\public\test.php on line 16
+[09-Mar-2024 08:26:11 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it in C:\Users\bhnbi\Local Sites\exosightit\app\public\wp-includes\class-wpdb.php on line 1987
