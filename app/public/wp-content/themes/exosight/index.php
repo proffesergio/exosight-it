@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang='en'>
-    <head>
-        <?php wp_head(); ?>
+<html <?php language_attributes(); ?>>
+<head>
+  <meta charset="<?php bloginfo('charset'); ?>">
+  <?php wp_head(); ?>
 </head>
-<body>
-    <?php wp_body(); ?>
+<body <?php body_class('example'); ?>>
+  <?php wp_body_open(); ?>
 
-<?php wp_footer(); ?>
+  <p>Hello world!</p>
+
+  <?php wp_footer(); ?>
 </body>
-<footer>
-
-</footer>
+</html>
