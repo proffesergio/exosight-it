@@ -5,21 +5,14 @@
 // Functions 
 
 
-// Includes
+// Include External php files containing functions
 include(get_theme_file_path('/includes/front/enqueue.php'));
 include(get_theme_file_path('/includes/front/head.php'));
+include(get_theme_file_path('/includes/setup_theme.php'));
 
 // Hooks
 add_action('wp_enqueue_scripts', 'e_scripts_enqueue');
 add_action('wp_head', 'exo_header', 5);
-
-
-function exo_bootstrapping() {
-    load_theme_textdomain('exosight');
-    add_theme_support('post-thumbnails');
-    add_theme_support('title-tag');
-
-}
 add_action('after_setup_theme', 'exo_bootstrapping');
 
 function exo_assets_loading() {

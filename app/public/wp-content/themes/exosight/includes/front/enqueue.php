@@ -15,7 +15,7 @@ function e_scripts_enqueue() {
 
     wp_register_style(
         'e_theme',
-        get_theme_file_uri('assets/public/index.css')
+        get_theme_file_uri('assets/public/index.css') 
     );
     wp_enqueue_style('ex_font_rubik_and_pacifico');
     wp_enqueue_style('e_bootstrap_icons');
